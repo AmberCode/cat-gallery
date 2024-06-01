@@ -1,7 +1,7 @@
 "use client";
 
 import { useInfiniteQuery } from "@tanstack/react-query";
-import { getImages } from "../actions";
+import { getImages } from "../../actions/getImages";
 
 export type ImageModel = {
   id: number;
