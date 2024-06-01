@@ -1,4 +1,4 @@
-import { getImages } from "./actions";
+import { getImages } from "./actions/getImages";
 import { ImageCardContainer } from "./components/ImageCardContainer";
 
 export default async function Home() {

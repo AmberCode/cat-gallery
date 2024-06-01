@@ -1,11 +1,11 @@
 "use client";
 
 import { Fragment, useEffect, useState } from "react";
-import { ImageModel, useGetImages } from "../hooks/useGetImages";
-import { ImageCard } from "./ImageCard";
+import { ImageModel, useGetImages } from "./useGetImages";
+import { ImageCard } from "../ImageCard";
 import React from "react";
-import { useOnScreenObserver } from "../hooks/useInView";
-import { Ad } from "./Ad";
+import { useOnScreenObserver } from "../../hooks/useInView";
+import { Ad } from "../Ad";
 
 type ImageCardContainerProps = {
   images: ImageModel[];
